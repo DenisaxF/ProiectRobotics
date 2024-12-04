@@ -23,8 +23,7 @@ TBD
 TBD
 
 ## Conclusions
-TBD
-
+The Fire Fighting Robot successfully demonstrates how autonomous systems can detect and extinguish flames without external control. This project highlights the potential of robotics in firefighting, providing a foundation for future improvements and innovations.
 ## Source Code and Other Resources to Include on GitHub
 TBD
 
