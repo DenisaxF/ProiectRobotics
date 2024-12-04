@@ -7,6 +7,7 @@ The goal of this project is to build an autonomous firetruck equipped with fire 
 TBD
 
 ## Hardware Design
+### Components:
 - Arduino uno
 - Breadboard
 - Wires
