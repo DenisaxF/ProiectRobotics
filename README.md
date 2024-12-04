@@ -1,7 +1,7 @@
 # Fire Fighting Robot
 
 ## Introduction
-Provide an overview of the project, including its purpose and objectives.
+The purpose of this project is to build a firetruck that uses fire sensors to find a flame and then splash water to extinguish it. The firetruck will move on its own after the flame, without any controller or something else.
 
 ## General Description
 Give a broad description of the project, outlining its goals, scope, and significance.
