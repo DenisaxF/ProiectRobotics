@@ -1,28 +1,31 @@
 # Fire Fighting Robot
 
 ## Introduction
-The purpose of this project is to build a firetruck that uses fire sensors to find a flame and then splash water to extinguish it. The firetruck will move on its own after the flame, without any controller or something else.
+The goal of this project is to build an autonomous firetruck equipped with fire sensors, capable of detecting a flame, moving towards it on its own, and extinguishing it by spraying water, without the need for a controller or any external input.
 
 ## General Description
-Give a broad description of the project, outlining its goals, scope, and significance.
+TBD
 
 ## Hardware Design
-Explain the hardware components and design considerations used in the project.
+- Arduino uno
+- Breadboard
+- Wires
+- Wheels
+- Flame sensors
+- Servomotor
+- TBD
 
 ## Software Design
-Detail the software architecture, tools, and methodologies implemented.
+TBD
 
 ## Results
-Describe the results achieved upon completing the project. Highlight key findings, accomplishments, and outcomes.
+TBD
 
 ## Conclusions
-Summarize the project experience, lessons learned, and potential for future development or improvements.
+TBD
 
 ## Source Code and Other Resources to Include on GitHub
-Provide all the source code and additional resources, ensuring they are available on GitHub for reference or collaboration.
-
-## Journal
-Document the project’s progress through a detailed timeline or log of activities.
+TBD
 
 ## Bibliography/Resources
-List all references, resources, and materials used in the development of the project.
+TBD
