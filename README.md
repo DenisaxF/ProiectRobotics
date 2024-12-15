@@ -13,7 +13,7 @@ TBD
 - Wires
 - Wheels(x4)
 - DC motors(x4)
-- Flame sensors(x3)
+- IR Flame sensors(x3)
 - Servomotor
 - L298N Motor Driver
 - Water Pump + pipe + bottle
