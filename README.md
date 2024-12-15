@@ -20,7 +20,7 @@ TBD
 - 1k Resistor
 - Tip122 Transistor
 - 104pf capacitor
-- 1.5V batteries(x4)
+- 1.5V Alcaline batteries(x4)
 
 ### Their roles:
 
@@ -78,6 +78,13 @@ Once the flame is located, the water pump is activated (pin A5), and the servo m
 - Interfacing
 
 Arduino controls each component using digital/analog pins and generates PWM signals for the servo motor and motors.
+
+### Energy Consumption
+- DC Motors: approx. 120-150mA per motor during operation.
+- Water Pump: around 200-300mA at startup.
+- Arduino Uno: consumes approximately 50mA.
+- Servo Motor: variable consumption, between 100-250mA, depending on the load.
+- The total power supply must be sufficient for all components, so an external 6-12V battery with enough current (>2A) is recommended.
 
 
 ## Software Design
