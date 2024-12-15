@@ -31,9 +31,9 @@ Operates at 5V and provides digital and analog pins for interfacing with the oth
 #### 2) IR Sensors (x3)
 Used to detect fire. These sensors emit an analog signal based on the intensity of infrared light detected.
 Pins Used:
-A0 - Right sensor (IR_R)
-A1 - Front sensor (IR_F)
-A2 - Left sensor (IR_L)
+A0 - Right sensor
+A1 - Front sensor
+A2 - Left sensor
 
 #### 3) L298N Motor Driver Module
 Controls the movement motors of the robot (4 DC motors). It allows motors to rotate in both directions (forward/backward).
