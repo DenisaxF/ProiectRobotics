@@ -86,6 +86,10 @@ Arduino controls each component using digital/analog pins and generates PWM sign
 - Servo Motor: variable consumption, between 100-250mA, depending on the load.
 - The total power supply must be sufficient for all components, so an external 6-12V battery with enough current (>2A) is recommended.
 
+### Photo and video of the hardware
+![WhatsApp Image 2024-12-19 at 13 29 54](https://github.com/user-attachments/assets/10f12fbc-c04f-4372-b6c6-4848c6c141be)
+
+https://github.com/user-attachments/assets/c379b742-689b-42df-9c76-22ce1434192c
 
 ## Software Design
 TBD
