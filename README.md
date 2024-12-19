@@ -86,7 +86,7 @@ Arduino controls each component using digital/analog pins and generates PWM sign
 - Servo Motor: variable consumption, between 100-250mA, depending on the load.
 - The total power supply must be sufficient for all components, so an external 6-12V battery with enough current (>2A) is recommended.
 
-  | Component | Quantity | Description | Link/Datasheet |
+| Component | Quantity | Description | Link/Datasheet |
 | --- | --- | --- | --- |
 | Arduino Uno | 1 | Microcontroller for main control | (https://docs.arduino.cc/hardware/uno-rev3/) |
 | DC Motors | 4 | 6V DC motors for robot movement | (https://www.contact-evolution.ch/files/DC_motors.pdf) | 
