@@ -58,6 +58,17 @@ Controlled using PWM signals to adjust the angle of movement.
 #### 7) External Battery
 Supplies power to the robot and components with the required voltage (6-12V).
 
+| Component | Quantity | Description | Link/Datasheet |
+| --- | --- | --- | --- |
+| Arduino Uno | 1 | Microcontroller for main control | (https://docs.arduino.cc/hardware/uno-rev3/) |
+| DC Motors | 4 | 6V DC motors for robot movement | (https://www.contact-evolution.ch/files/DC_motors.pdf) | 
+| Motor Driver (L298N) | 1 | motor control | https://www.handsontec.com/dataspecs/L298N%20Motor%20Driver.pdf | 
+| IR Sensors | 3 | flame detecting | https://moviltronics.com/wp-content/uploads/2019/10/KY-026.pdf?srsltid=AfmBOorAuu77AL-C2YhF83Awy0Aa1kTbRJ0Hwox2YXZ_Z9UAM80GI-W- | 
+| Mini submersible ater pump | 1 |  for extinguishing fire with water | https://5.imimg.com/data5/IQ/GJ/PF/SELLER-1833510/dc-mini-submersible-water-pump.pdf | 
+| Servo Motor | 1 | for sensor positioning |  (http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf) | 
+| Battery Pack| 1 | 6V supply for robot power | |
+
+
 ### Block Diagram
 ![Screenshot 2024-12-15 194104](https://github.com/user-attachments/assets/5cc37da7-7beb-4c15-9bb8-4f00f39e604f)
 
@@ -85,16 +96,6 @@ Arduino controls each component using digital/analog pins and generates PWM sign
 - Arduino Uno: consumes approximately 50mA.
 - Servo Motor: variable consumption, between 100-250mA, depending on the load.
 - The total power supply must be sufficient for all components, so an external 6-12V battery with enough current (>2A) is recommended.
-
-| Component | Quantity | Description | Link/Datasheet |
-| --- | --- | --- | --- |
-| Arduino Uno | 1 | Microcontroller for main control | (https://docs.arduino.cc/hardware/uno-rev3/) |
-| DC Motors | 4 | 6V DC motors for robot movement | (https://www.contact-evolution.ch/files/DC_motors.pdf) | 
-| Motor Driver (L298N) | 1 | motor control | https://www.handsontec.com/dataspecs/L298N%20Motor%20Driver.pdf | 
-| IR Sensors | 3 | flame detecting | https://moviltronics.com/wp-content/uploads/2019/10/KY-026.pdf?srsltid=AfmBOorAuu77AL-C2YhF83Awy0Aa1kTbRJ0Hwox2YXZ_Z9UAM80GI-W- | 
-| Mini submersible ater pump | 1 |  for extinguishing fire with water | https://5.imimg.com/data5/IQ/GJ/PF/SELLER-1833510/dc-mini-submersible-water-pump.pdf | 
-| Servo Motor | 1 | for sensor positioning |  (http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf) | 
-| Battery Pack| 1 | 6V supply for robot power | |
 
 ### Photo and video of the hardware
 ![WhatsApp Image 2024-12-19 at 13 29 54](https://github.com/user-attachments/assets/10f12fbc-c04f-4372-b6c6-4848c6c141be)
