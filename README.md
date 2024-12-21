@@ -104,6 +104,7 @@ https://github.com/user-attachments/assets/c379b742-689b-42df-9c76-22ce1434192c
 
 ### Circuit diagram
 ![schema_electrica](https://github.com/user-attachments/assets/7654da02-bc1b-4ef6-a6c0-e2fe75982605)
+Observations: the software doesn t include an on-off switch button so i used a simple push button instead in this virtual diagram.
 
 ## Software Design
 TBD
