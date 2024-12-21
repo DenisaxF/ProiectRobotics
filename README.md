@@ -102,6 +102,9 @@ Arduino controls each component using digital/analog pins and generates PWM sign
 
 https://github.com/user-attachments/assets/c379b742-689b-42df-9c76-22ce1434192c
 
+### Circuit diagram
+![schema_electrica](https://github.com/user-attachments/assets/7654da02-bc1b-4ef6-a6c0-e2fe75982605)
+
 ## Software Design
 TBD
 
