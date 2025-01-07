@@ -123,7 +123,7 @@ Laboratorul 0: Controlul de bază al Arduino-ului, cum ar fi utilizarea funcții
 
 Laboratorul 1: Controlul motoarelor cu ajutorul unui H-Bridge, folosind modulul L298. Aceasta permite controlul direcției și vitezei motoarelor pentru mișcarea robotului.
 
-Laboratorul 2: Utilizarea senzorilor IR pentru detectarea obstacolelor. În codul tău, senzorii IR sunt folosiți pentru a citi valorile și a lua decizii despre mișcarea robotului în funcție de prezența sau absența obstacolelor.
+Laboratorul 2: Utilizarea senzorilor IR pentru detectarea obstacolelor. În codul meu, senzorii IR sunt folosiți pentru a citi valorile și a lua decizii despre mișcarea robotului în funcție de prezența sau absența focului.
 
 Aceste funcționalități sunt esențiale pentru a crea un robot autonom care să răspundă corect la condițiile de mediu.
 
@@ -134,7 +134,6 @@ Controlul motoarelor: Folosind pinii de pe L298, controlăm motoarele robotului 
 Senzorii IR: Senzorii din față, dreapta și stânga sunt folosiți pentru a detecta focul. În funcție de valorile citite, robotul poate schimba direcția sau poate opri pentru a stropi cu apă.
 Pompa de apă și servomotorul: Când un obstacol este detectat, robotul oprește mișcarea, pornește pompa de apă și ajustează servomotorul pentru a direcționa jetul de apă.
 Logica de control: Algoritmul verifică în mod constant valorile senzorilor IR și ajustează comportamentul robotului pe baza acestora. Dacă nu sunt obstacole, robotul se mișcă înainte, iar în caz contrar, efectuează viraje și poate stropi cu apă.
-Toate aceste funcționalități lucrează împreună pentru a face robotul să se comporte autonom într-un mediu cu obstacole.
 
 ### 6. Calibrarea senzorilor
 Senzorii IR au fost calibrați pentru a reacționa corect la diferite distanțe. Am stabilit praguri pentru fiecare senzor (dreapta, față și stânga) astfel încât robotul să poată detecta apropierea unui obstacol și să reacționeze corespunzător. Aceste valori au fost testate pentru a asigura o detecție fiabilă.
