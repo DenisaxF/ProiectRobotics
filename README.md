@@ -140,6 +140,10 @@ Several key optimizations were implemented in the code:
 Motor Speed: Two speed levels were used – one normal and one higher for turning. This improves the robot's maneuverability.
 Servomotor Control: The servomotor movements were fine-tuned for greater precision, allowing the water jet to be directed more accurately.
 
+### 8. Video with the functionality
+
+https://youtube.com/shorts/N-WnGlNRIIY?feature=share
+
 ## Results
 TBD
 
