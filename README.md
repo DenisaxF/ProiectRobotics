@@ -107,7 +107,43 @@ https://github.com/user-attachments/assets/c379b742-689b-42df-9c76-22ce1434192c
 Observations: the software doesn t include an on-off switch button so i used a simple push button instead in this virtual diagram.
 
 ## Software Design
-TBD
+### 1. Stadiul actual al implementării software
+Proiectul este aproape finalizat. Robotul poate detecta focul prin senzorii IR și se poate deplasa în consecință, indreptandu-se spre ea și activând pompa pentru a stropi cu apă atunci când este nevoie. Direcția jetului de apă este controlată de un servomotor. Codul este deja implementat și funcționează conform așteptărilor, iar robotul răspunde corect în diferite situații.
+
+### 2. Motivația alegerii bibliotecilor
+Am folosit biblioteca standard Arduino.h, care oferă toate funcțiile necesare pentru controlul motoarelor și al servomotorului. Nu am folosit biblioteci externe, deoarece funcțiile disponibile în biblioteca standard sunt suficiente pentru ceea ce aveam nevoie, iar astfel am păstrat controlul total asupra codului.
+
+### 3. Elementul de noutate al proiectului
+Elementul de noutate al acestui proiect este integrarea senzorilor IR pentru detecția focului și utilizarea unui servomotor pentru direcționarea jetului de apă. Robotul este capabil să navigheze autonom și să aplice apă în funcție de obstacolele detectate. Acesta reprezintă un pas important în dezvoltarea unui robot cu funcționalități inteligente de reacție.
+
+### 4. Justificarea utilizării funcționalităților din laborator
+Am folosit funcționalitățile învățate în trei laboratoare:
+
+Laboratorul 0: Controlul de bază al Arduino-ului, cum ar fi utilizarea funcțiilor pinMode, digitalWrite, și analogWrite pentru controlul motoarelor și servomotorului. Aceste funcții sunt esențiale pentru a putea controla hardware-ul robotului.
+
+Laboratorul 1: Controlul motoarelor cu ajutorul unui H-Bridge, folosind modulul L298. Aceasta permite controlul direcției și vitezei motoarelor pentru mișcarea robotului.
+
+Laboratorul 2: Utilizarea senzorilor IR pentru detectarea obstacolelor. În codul tău, senzorii IR sunt folosiți pentru a citi valorile și a lua decizii despre mișcarea robotului în funcție de prezența sau absența obstacolelor.
+
+Aceste funcționalități sunt esențiale pentru a crea un robot autonom care să răspundă corect la condițiile de mediu.
+
+### 5. Explicația scheletului proiectului și interacțiunea dintre funcționalități
+Proiectul este structurat astfel:
+
+Controlul motoarelor: Folosind pinii de pe L298, controlăm motoarele robotului pentru a-l face să se miște înainte, înapoi sau să vireze.
+Senzorii IR: Senzorii din față, dreapta și stânga sunt folosiți pentru a detecta focul. În funcție de valorile citite, robotul poate schimba direcția sau poate opri pentru a stropi cu apă.
+Pompa de apă și servomotorul: Când un obstacol este detectat, robotul oprește mișcarea, pornește pompa de apă și ajustează servomotorul pentru a direcționa jetul de apă.
+Logica de control: Algoritmul verifică în mod constant valorile senzorilor IR și ajustează comportamentul robotului pe baza acestora. Dacă nu sunt obstacole, robotul se mișcă înainte, iar în caz contrar, efectuează viraje și poate stropi cu apă.
+Toate aceste funcționalități lucrează împreună pentru a face robotul să se comporte autonom într-un mediu cu obstacole.
+
+### 6. Calibrarea senzorilor
+Senzorii IR au fost calibrați pentru a reacționa corect la diferite distanțe. Am stabilit praguri pentru fiecare senzor (dreapta, față și stânga) astfel încât robotul să poată detecta apropierea unui obstacol și să reacționeze corespunzător. Aceste valori au fost testate pentru a asigura o detecție fiabilă.
+
+### 7. Optimizările realizate
+Am realizat câteva optimizări importante în cod:
+
+Viteza motoarelor: Am folosit două nivele de viteză – una normală și una mai mare pentru viraje. Aceasta îmbunătățește manevrabilitatea robotului.
+Controlul servomotorului: Mișcările servomotorului au fost reglate pentru a fi mai precise, astfel încât jetul de apă să poată fi direcționat cu mai multă acuratețe.
 
 ## Results
 TBD
