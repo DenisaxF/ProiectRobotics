@@ -108,7 +108,7 @@ Observations: the software doesn t include an on-off switch button so i used a s
 
 ## Software Design
 ### 1. Stadiul actual al implementării software
-Proiectul este aproape finalizat. Robotul poate detecta focul prin senzorii IR și se poate deplasa în consecință, indreptandu-se spre ea și activând pompa pentru a stropi cu apă atunci când este nevoie. Direcția jetului de apă este controlată de un servomotor. Codul este deja implementat și funcționează conform așteptărilor, iar robotul răspunde corect în diferite situații.
+Proiectul este aproape finalizat. Robotul poate detecta focul prin senzorii IR și se poate deplasa în consecință, indreptandu-se spre flacara și activând pompa pentru a stropi cu apă atunci când este nevoie. Direcția jetului de apă este controlată de un servomotor. Codul este deja implementat și funcționează conform așteptărilor, iar robotul răspunde corect în diferite situații.
 
 ### 2. Motivația alegerii bibliotecilor
 Am folosit biblioteca standard Arduino.h, care oferă toate funcțiile necesare pentru controlul motoarelor și al servomotorului. Nu am folosit biblioteci externe, deoarece funcțiile disponibile în biblioteca standard sunt suficiente pentru ceea ce aveam nevoie, iar astfel am păstrat controlul total asupra codului.
